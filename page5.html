@@ -1,0 +1,198 @@
+<html>
+<head>
+    <title>The chicken hub</title>
+    <style>
+        .body {
+          background-color:rgb(205, 217, 228);
+          padding: 2px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        }
+        #head {
+          background-size: cover;
+          background-color:rgb(184, 193, 193);
+          width: 100%;
+          height: 250px; /* Adjust the height as needed */
+        }
+        nav ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          padding-top:40px;
+          justify-content: center;
+        }
+        nav ul li {
+          margin: 0 10px;
+        }
+      
+        nav ul li a {
+          text-decoration: none;
+           /* Set text color to white */
+          font-size: 26px; /* Increase font size to 18 pixels */
+        }
+        header {
+          display: flex;
+          padding-top:50px;
+          justify-content: space-between;
+          align-items: center;
+        }
+      
+        h1#logo {
+          justify-content: flex-start;
+          margin: 0;
+        }
+      
+        h1#page-title {
+          padding-top:40px;
+          text-align: center;
+          margin: 0;
+        }
+      
+        div#button-container {
+          justify-content: flex-end;
+        }
+      
+        button {
+          padding: 10px 30px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+          }
+      
+          .grid-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #f1f1f1;
+            height: 250px;
+          }
+      
+          .grid-item img {
+            max-width: 100%;
+            max-height: 100%;
+          }
+      
+          .grid-item p {
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+          }
+    </style>
+</head>
+<body class="body">
+    <!--------Header section--------->
+    <section id="head">
+        <head>
+          <header>
+            <h1 id="logo"><b><i>The Chicken hub</i></b></h1>
+            <h1 id="page-title">The gallery - page5</h1>
+            <div id="button-container">
+              <button><a href="page2.html">Log in</a></button>
+            </div>
+          </header>
+            <nav>
+                <menu>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="page3.html">My Profile</a></li>
+                        <li><a href="page4.html">knowledge center</a></li>
+                        <li><a href="page5.html">The gallery</a></li>
+                        <li><a href="page6.html">Chicken breeds</a></li>
+                        <li><a href="page7.html">Contact Us</a></li>
+                        
+                    </ul>
+                </menu>
+            </nav>
+        </head>
+    </section>
+
+    <p>Choose what you want to see:</p>
+    <form>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">stake</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">eggs</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">hen</label>
+      </form> 
+
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="https://images.unsplash.com/photo-1590677147861-622ec92a60f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNoaWNrZW4lMjBhZXN0aGVudGljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="Image 1">
+          <p>The female & male chicken</p>
+        </div>
+        <div class="grid-item">
+          <img src="https://images.unsplash.com/photo-1635183530645-7f46393042e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="Image 2">
+          <p>A cork </p>
+        </div>
+        <div class="grid-item">
+          <img src="https://images.unsplash.com/photo-1577134352098-0599fcdefaae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="Image 3">
+          <p>A breed </p>
+        </div>
+        <div class="grid-item">
+          <img src="https://images.unsplash.com/photo-1560067830-6da773e7ec17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="Image 4">
+          <p>Annother cork</p>
+        </div>
+        <div class="grid-item">
+          <img src="https://images.unsplash.com/photo-1619492215319-1bc1bf4d7272?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="Image 5">
+          <p>A cork posing </p>
+        </div>
+        <div class="grid-item">
+            <img src="https://images.unsplash.com/photo-1535275226173-7ee8b465f0c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Image 1">
+            <p>Golden Comet</p>
+          </div>
+          <div class="grid-item">
+            <img src="https://images.unsplash.com/photo-1589985002172-2fc5a9fa75b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2hpY2tlbiUyMFJob2RlJTIwSXNsYW5kJTIwUmVkfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="Image 2">
+            <p>Rhode Island Red</p>
+          </div>
+          <div class="grid-item">
+            <img src="https://images.unsplash.com/photo-1622949364444-042f05ddd2ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=299&q=80" alt="Image 3">
+            <p>Barred Plymouth Rock</p>
+          </div>
+          <div class="grid-item">
+            <img src="https://images.unsplash.com/photo-1543206810-8f8cdd91d05e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNoaWNrZW4lMjBCYXJyZWQlMjBQbHltb3V0aCUyMFJvY2t8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Image 4">
+            <p>White Leghorn</p>
+          </div>
+          <div class="grid-item">
+            <img src="https://images.unsplash.com/photo-1589922583749-6b8473a85048?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="Image 5">
+            <p>Group of chicken </p>
+          </div>
+          <div class="grid-item">
+            <img src="https://images.unsplash.com/photo-1531155179084-3e1f15110922?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Image 6">
+            <p>A chick</p>
+          </div>
+          <div class="grid-item">
+            <img src="https://images.unsplash.com/photo-1534292095819-f289d7b36317?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="Image 7">
+            <p>Hen searching for food</p>
+          </div>
+          <div class="grid-item">
+            <img src="https://images.unsplash.com/photo-1615828277068-3897b6b58673?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="Image 8">
+            <p>Silkie</p>
+          </div>
+          <div class="grid-item">
+            <img src="https://plus.unsplash.com/premium_photo-1664527009186-c99de7e508ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="Image 9">
+            <p>Polish</p>
+          </div>
+          <div class="grid-item">
+            <img src="https://images.unsplash.com/photo-1570802685082-2224bd954723?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="Image 10">
+            <p>Brahma</p>
+          </div>
+          <div class="grid-item">
+            <img src="https://images.unsplash.com/photo-1520280532510-2e8bffed79cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hpY2tlbiUyMEFtZXJhdWNhbmF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Image 11">
+            <p>Marans</p>
+          </div>
+          <div class="grid-item">
+            <img src="https://images.unsplash.com/photo-1604503468506-a8da13d82791?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2hpY2tlbiUyMEFtZXJhdWNhbmF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Image 12">
+            <p>As a meal</p>
+          </div>
+      </div>
+      <p>
+        Note: If you want to downloadlaod the images, copy and paste it's link in your browser and downdload it from the website. 
+      </p>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<html>
+<head>
+    <title>The chicken hub</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <style>
+        .body {
+            background-color:rgb(205, 217, 228);
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        }
+    </style>
+</head>
+<body class="body">
+    <!--------Header section--------->
+    <section >
+        <head>
+            <header>
+                <h1 style="font-size:40px;"> <i>The Chicken Hub</i></h1>
+                <h1>Logn in - page 2</h1>
+                <h1><i>Click to go to <a href="index.html">homepage</a></i></h1>
+            </header>
+        </head>
+    </section>
+    <main>
+        <form action="/action_page.php">
+            <fieldset>
+              <legend>Log in</legend><br><br>
+              <label for="username">Username:</label><br>
+              <input type="text" id="username" name="username"><br>
+              <label for="pwd">Password:</label><br>
+              <input type="password" id="pwd" name="pwd"><br><br>
+              <input type="submit" value="Log in">
+              <p>Or <a href="page2.html">sign up</a></p>
+            </fieldset>
+          </form>  <br>
+          <fieldset>
+            <legend>Register me</legend>
+            <form action="/action_page.php">
+                <label for="fname">First and middle name:</label><br>
+                <input type="text" id="fname" name="fname" value="First name, Middle name"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Last name"><br>
+                <label for="fname">Enter your username:</label><br>
+                <input type="text" id="fname" name="fname" value="Useername"><br>
+                <label for="lname">Enter your ID:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Enter your email:</label><br>
+                <input type="text" id="lname" name="lname" value="@gmail.com"><br><br>
+                <label for="fname">Enter your new password:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="fname">Confirm your password:</label><br>
+                <input type="text" id="lname" name="lname"><br><br>
+                <p>Choose your your gender:</p>
+                <form>
+                  <input type="radio" id="html" name="fav_language" value="HTML">
+                  <label for="html">Male</label><br>
+                  <input type="radio" id="css" name="fav_language" value="CSS">
+                  <label for="css">Female</label><br>
+                </form> 
+                <form>
+                  <p>Read the<a href="invalid"> terms and conditions</a>.</p>
+                  <input type="checkbox" id="html" name="fav_language" value="HTML">
+                  <label for="html">I accept the terms and conditions</label><br><br>
+                <input type="submit" value="Register">
+                <input type="reset">
+              </form> 
+          </fieldset>
+    </main>
+</body>
+</html>

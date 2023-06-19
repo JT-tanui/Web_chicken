@@ -1,0 +1,108 @@
+<html>
+<head>
+    <title>The chicken hub</title>
+    <style>
+        .body {
+          background-color:rgb(205, 217, 228);
+          padding: 2px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        }
+        #head {
+          background-size: cover;
+          background-color:rgb(184, 193, 193);
+          width: 100%;
+          height: 250px; /* Adjust the height as needed */
+        }
+        nav ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          padding-top:40px;
+          justify-content: center;
+        }
+        nav ul li {
+          margin: 0 10px;
+        }
+      
+        nav ul li a {
+          text-decoration: none;
+           /* Set text color to white */
+          font-size: 26px; /* Increase font size to 18 pixels */
+        }
+        header {
+          display: flex;
+          padding-top:50px;
+          justify-content: space-between;
+          align-items: center;
+        }
+      
+        h1#logo {
+          justify-content: flex-start;
+          margin: 0;
+        }
+      
+        h1#page-title {
+          padding-top:40px;
+          text-align: center;
+          margin: 0;
+        }
+      
+        div#button-container {
+          justify-content: flex-end;
+        }
+      
+        button {
+          padding: 10px 30px;
+        }
+    </style>
+</head>
+<body class="body">
+    <!--------Header section--------->
+    <section id="head">
+        <head>
+          <header>
+            <h1 id="logo"><b><i>The Chicken hub</i></b></h1>
+            <h1 id="page-title">Contact Us - page7</h1>
+            <div id="button-container">
+              <button><a href="page2.html">Log in</a></button>
+            </div>
+          </header>
+            <nav>
+                <menu>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="page3.html">My Profile</a></li>
+                        <li><a href="page4.html">knowledge center</a></li>
+                        <li><a href="page5.html">The gallery</a></li>
+                        <li><a href="page6.html">Chicken breeds</a></li>
+                        <li><a href="page7.html">Contact Us</a></li>
+                        
+                    </ul>
+                </menu>
+            </nav>
+        </head>
+    </section>
+    <!--------content section--------->
+    <main>
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Got a question, suggestion, or just want to say hello? We'd love to hear from you! Fill out the form below and we'll get back to you as soon as possible.</p>
+            
+            <div class="contact-form">
+              <form action="#" method="post">
+                <P>Enter your name:</P>
+                <input type="text" name="name" placeholder="Your Name" required><br>
+                <P>Enter your email:</P>
+                <input type="email" name="email" placeholder="Your Email" required><br>
+                <P>Enter your message:</P>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br><br>
+                <button type="submit">Send Message</button>
+              </form>
+            </div>
+            
+            <p>Alternatively, you can reach out to us via email at <a href="mailto:contact@example.com">contact@example.com</a> or give us a call at <a href="tel:+1234567890">+1234567890</a>.</p>
+          </div>
+    </main>
+</body>
+</html>
